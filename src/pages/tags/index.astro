@@ -1,6 +1,6 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import TagList from "../../components/TagList.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import TagList from "@components/TagList.astro";
 
 const allPosts = await Astro.glob("../posts/*.md");
 const uniqueTags = [
